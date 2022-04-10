@@ -1,0 +1,102 @@
+.title {
+  color: white;
+  font-size: 50px;
+  text-decoration-line: underline;
+}
+hr{
+  outline: none;
+
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: rgb(113, 247, 213);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid white;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  color: rgb(70, 51, 51);
+}
+
+button {
+  background-color: #ed98cb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  .indexBackground {
+    background: linear-gradient(to bottom, #ff99cc 0%, #33ccff 100%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+.homesetting {
+  background: linear-gradient(to bottom, #723b78 0%, #783b45 100%);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  min-height: 100vh;
+}
+
+.boxed label {
+  display: inline-block;
+  width: 150px;
+  padding: 13px;
+  border: solid 2px #ccc;
+  position: relative;
+  transition: all 0.3s;
+  
+
+}
+
+.boxed input[type="radio"] {
+  display: none;
+}
+
+.boxed input[type="radio"]:checked+label {
+  border: solid 15px #ed98cb;
+}
